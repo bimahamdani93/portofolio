@@ -3,43 +3,16 @@
   height: 100vh;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  display: flex;
-  width: 100%;
-  background-color: #434242;
-  color: white;
-  text-align: center;
-  justify-content: center;
-}
-
-.footer .contact {
-  margin: 15px;
-}
-
-.footer table {
-  color: #cbe5ff;
-}
-
-.footer .follow {
-  margin: 15px 50px 15px 50px;
-}
-
-.footer .follow table td {
-  text-align: left;
-}
-
-.footer .contact table td {
-  text-align: left;
-}
-
 a {
   text-decoration: none;
   color: #cbe5ff;
 }
 
-#portofolio{
-    height: 100vh;
+.card {
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.15);
 }
 
